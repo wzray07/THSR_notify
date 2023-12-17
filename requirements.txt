@@ -1,5 +1,4 @@
 prettytable==3.9.0
 ddddocr==1.4.10
 selenium==4.16.0
-python-telegram-bot==13.13
 pyTelegramBotAPI==4.14.0

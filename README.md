@@ -78,6 +78,6 @@
 - 更人性化一點（Ex. GUI, 網頁）
 
 ## Other
-- 如有任何使用上的問題 or 建議 or 指教，歡迎直接 mail 給我與我溝通！
+- 如有任何使用上的問題 or 建議 or 指教，歡迎直接 mail 給我與我溝通！如發現 code 的部分有問題也歡迎直接發 issue
 - 如果喜歡也別吝嗇點個 Star !
 - Mail : dtjfhjtf@gmail.com
