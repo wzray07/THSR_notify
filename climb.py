@@ -105,7 +105,7 @@ def climb(start, end, month_int, month, date, year, time_interval, record_time, 
         print('已匹配到票')
         print('出發時間：' + str(match_time))
         now_time = datetime.strftime(datetime.now(),'%Y/%m/%d-%H:%M:%S')
-        bot.send_msg("已於"+now_time+"成功匹配到票\n出發時間："+year+'/'+month+'/'+date
+        bot.send_msg("已於"+now_time+"成功匹配到票\n出發時間："+year+'/'+month+'/'+date+' '
                      +str(match_time)+"\n啟程站："+start+"\n目的站："+end+"\n請儘速購票！！\n此筆搜尋條件已為您刪除")
         with open("search.log", 'a') as log_file:
             log_file.write(now_time + ' completed search , match time:'+ str(match_time) +', id:'+ record_time + '\n')

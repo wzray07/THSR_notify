@@ -27,6 +27,8 @@ def view_data():
     except:
         print("查詢失敗")
     print("\n------------------------------------")
+    if len(load_data) == 0:
+        print("無任何查詢條件，請按 2 返回上一步")
     for i in range(len(load_data)):
         print(str(i+1)+'.')
         idNum = list(load_data[i])[0]
